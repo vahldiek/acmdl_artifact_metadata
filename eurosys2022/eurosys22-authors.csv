@@ -1,0 +1,159 @@
+2,Julia,Lawall,Julia Lawall,julia.lawall@inria.fr,Inria
+2,Himadri,Pandya,Himadri Pandya,himadri.pandya@inria.fr,Inria
+2,Jean-Pierre,Lozi,Jean-Pierre Lozi,jean-pierre.lozi@oracle.com,Oracle Labs
+2,Baptiste,Lepers,Baptiste Lepers,baptiste.lepers@sydney.edu.au,University of Sydney
+2,Willy,Zwaenepoel,Willy Zwaenepoel,willy.zwaenepoel@sydney.edu.au,University of Sydney
+2,Gilles,Muller,Gilles Muller,gilles.muller@inria.fr,Inria
+5,Ning,Li,Ning Li,ning.li@uta.edu,"Dept. of Computer Science and Engineering, University of Texas at Arlington, USA"
+5,Hong,Jiang,Hong Jiang,hong.jiang@uta.edu,UT Arlington
+5,Hao,Che,Hao Che,hche@cse.uta.edu,"Department of Computer Science and Engineering, The University of Texas at Arlington"
+5,Zhijun,Wang,Zhijun Wang,zjwang68@yahoo.com,"Dept. of Computer Science and Engineering, University of Texas at Arlington, USA"
+5,MINH,NGUYEN,MINH NGUYEN,mqnguyen@mavs.uta.edu,"ikonGPS, USA"
+6,Esmail,Asyabi,Esmail Asyabi,easyabi@bu.edu,Boston University
+6,Yuanli,Wang,Yuanli Wang,yuanliw@bu.edu,Boston University
+6,John,Liagouris,John Liagouris,liagos@bu.edu,Boston University & Hariri Institute for Computing
+6,Vasiliki,Kalavri,Vasiliki Kalavri,vkalavri@bu.edu,Boston University
+6,Azer,Bestavros,Azer Bestavros,best@bu.edu,Boston University
+10,Kartal Kaan,Bozdoaan,Kartal Kaan Bozdoaan,ge59pap@mytum.de,Technical University of Munich
+10,Dimitrios,Stavrakakis,Dimitrios Stavrakakis,dimitrios.stavrakakis@tum.de,Technical University of Munich & University of Edinburgh
+10,Shady,Issa,Shady Issa,shady.issa@tum.de,Technical University of Munich
+10,Pramod,Bhatotia,Pramod Bhatotia,pramod.bhatotia@in.tum.de,Technical University of Munich
+16,Animesh,Baranawal,Animesh Baranawal,animeshb@iisc.ac.in,"Indian Institute Of Science, Bengaluru"
+16,Yogesh,Simmhan,Yogesh Simmhan,simmhan@iisc.ac.in,"IISc, Bangalore"
+17,Chen,Chen,Chen Chen,cchen262@uic.edu,University of Illinois at Chicago
+17,Wenshao,Zhong,Wenshao Zhong,wzhong20@uic.edu,University of Illinois at Chicago
+17,Xingbo,Wu,Xingbo Wu,wuxb@uic.edu,University of Illinois at Chicago and Microsoft Research Cambridge
+17,Xingbo,Wu,Xingbo Wu,xingbowu@microsoft.com,Microsoft Research Cambridge
+19,Yizheng,Jiao,Yizheng Jiao,yizheng@cs.unc.edu,The University of North Carolina at Chapel Hill
+19,Don,Porter,Don Porter,porter@cs.unc.edu,The University of North Carolina at Chapel Hill
+19,Sagar,Patel,Sagar Patel,sagarmp@cs.unc.edu,University of North Carolina at Chapel Hill
+19,Luke,Zeller,Luke Zeller,rlzeller@cs.unc.edu,University of North Carolina at Chapel Hill
+19,Rory,Bennet,Rory Bennet,rmbennett@cs.stonybrook.edu,Stony Brook University
+19,Michael,Bender,Michael Bender,bender@cs.stonybrook.edu,Stony Brook University
+19,Michael,Condict,Michael Condict,mcondict@gmail.com,
+19,Alex,Conway,Alex Conway,aconway@vmware.com,Vmware Research
+19,Martin,Farach-Colton,Martin Farach-Colton,martin@farach-colton.com,Rutgers University
+19,XIONGZI,GE,XIONGZI GE,xiongzi.ge@netapp.com,NetApp Inc.
+19,William,Jannen,William Jannen,jannen@cs.williams.edu,Williams College
+19,Rob,Johnson,Rob Johnson,robj@vmware.com,VMWare Research
+19,Jun,Yuan,Jun Yuan,jyuan2@pace.edu,Pace University
+19,Simon,Bertron,Simon Bertron,simonbertron@gmail.com,Katana Graph
+19,Nirjhar,Mukherjee,Nirjhar Mukherjee,nirjhar@cmu.edu,Carnegie Mellon University
+22,Paul,Kirth,Paul Kirth,pkirth@uci.edu,"University of California, Irvine"
+22,Mitchel,Dickerson,Mitchel Dickerson,mgdicker@uci.edu,"University of California, Irvine"
+22,Stephen,Crane,Stephen Crane,sjc@immunant.com,"Immunant, Inc."
+22,Per,Larsen,Per Larsen,perl@immunant.com,"Immunant, Inc."
+22,Adrian,Dabrowski,Adrian Dabrowski,a.dabrowski@uci.edu,"University of California, Irvine"
+22,David,Gens,David Gens,dgens@uci.edu,"University of California, Irvine"
+22,Yeoul,Na,Yeoul Na,rapidsna@gmail.com,"University of California, Irvine"
+22,Stijn,Volckaert,Stijn Volckaert,stijn.volckaert@cs.kuleuven.be,"imec-DistriNet, KU Leuven"
+22,Michael,Franz,Michael Franz,franz@uci.edu,"University of California, Irvine, USA"
+26,Weihai,Shen,Weihai Shen,weihai.shen@stonybrook.edu,Stony Brook University
+26,Ansh,khanna,Ansh khanna,ansh.khanna@stonybrook.edu,Stony Brook University
+26,Sebastian,Angel,Sebastian Angel,sebastian.angel@cis.upenn.edu,University of Pennsylvania
+26,Siddhartha,Sen,Siddhartha Sen,sidsen@microsoft.com,Microsoft Research
+26,Shuai,Mu,Shuai Mu,shuai@cs.stonybrook.edu,Stony Brook University
+31,Ka-Ho,Chow,Ka-Ho Chow,khchow@gatech.edu,Georgia Institute of Technology
+31,Umesh,Deshpande,Umesh Deshpande,udeshpa@us.ibm.com,IBM Research - Almaden
+31,Sangeetha,Seshadri,Sangeetha Seshadri,seshadrs@us.ibm.com,IBM Research - Almaden
+31,Ling,Liu,Ling Liu,lingliu@cc.gatech.edu,Georgia Institute of Technology
+37,Hyungjun,Oh,Hyungjun Oh,tcpip15@hanyang.ac.kr,Hanyang University
+37,Junyeol,Lee,Junyeol Lee,shie007@hanyang.ac.kr,Hanyang University
+37,Jiwon,Seo,Jiwon Seo,seojiwon@hanyang.ac.kr,Hanyang University
+44,Michalis,Vardoulakis,Michalis Vardoulakis,vardoulakism@gmail.com,"Univ. of Crete and FORTH, Greece"
+44,Giorgos,Saloustros,Giorgos Saloustros,gesalous@ics.forth.gr,FORTH
+44,Pilar,Gonzalez-Farez,Pilar Gonzalez-Farez,pilargf@um.es,"Department of Computer Engineering, University of Murcia, Spain"
+44,Angelos,Bilas,Angelos Bilas,bilas@ics.forth.gr,"Univ. of Crete and FORTH, Greece"
+52,Xia,Zhou,Xia Zhou,zhouxia_icsr@zju.edu.cn,Zhejiang University
+52,Jiaqi,Li,Jiaqi Li,lijiaqi93@zju.edu.cn,Zhejiang University
+52,Wenlong,Zhang,Wenlong Zhang,yixiaonn@gmail.com,Zhejiang University
+52,Yajin,Zhou,Yajin Zhou,yajin_zhou@zju.edu.cn,Zhejiang University
+52,Wenbo,Shen,Wenbo Shen,shenwenbo@zju.edu.cn,Zhejiang University
+52,Kui,Ren,Kui Ren,kuiren@zju.edu.cn,Zhejiang University
+54,Anurag,Khandelwal,Anurag Khandelwal,anurag.khandelwal@yale.edu,Yale University
+54,Yupeng,Tang,Yupeng Tang,yupeng.tang@yale.edu,Yale University
+54,Rachit,Agarwal,Rachit Agarwal,ragarwal@cs.cornell.edu,Cornell University
+54,Aditya,Akella,Aditya Akella,akella@cs.utexas.edu,UT Austin
+54,Ion,Stoica,Ion Stoica,istoica@berkeley.edu,UC Berkeley
+54,Aditya,Akella,Aditya Akella,akella@cs.wisc.edu,UT Austin
+55,Ionel,Gog,Ionel Gog,ionel@berkeley.edu,UC Berkeley
+55,Sukrit,Kalra,Sukrit Kalra,sukrit.kalra@berkeley.edu,UC Berkeley
+55,Peter,Schafhalter,Peter Schafhalter,pschafhalter@berkeley.edu,UC Berkeley
+55,Joseph,Gonzalez,Joseph Gonzalez,jegonzal@berkeley.edu,UC Berkeley
+55,Ion,Stoica,Ion Stoica,istoica@berkeley.edu,UC Berkeley
+56,Ziyi,Lu,Ziyi Lu,luziyi@hust.edu.cn,Huazhong University of Science and Technology
+56,Qiang,Cao,Qiang Cao,caoqiang@hust.edu.cn,Huazhong University of Science and Technology
+56,Hong,Jiang,Hong Jiang,hong.jiang@uta.edu,UT Arlington
+56,Shucheng,Wang,Shucheng Wang,wsczq@hust.edu.cn,Huazhong University of Science and Technology
+57,A K M Fazla,Mehrab,A K M Fazla Mehrab,mehrab@vt.edu,Virginia Tech
+57,Ruslan,Nikolaev,Ruslan Nikolaev,rnikola@psu.edu,The Pennsylvania State University
+57,Binoy,Ravindran,Binoy Ravindran,binoy@vt.edu,Virginia Tech
+59,George,Danezis,George Danezis,gdanezis@fb.com,Meta/University College London
+59,Eleftherios,Kokoris-Kogias,Eleftherios Kokoris-Kogias,lef@fb.com,Meta
+59,Alberto,Sonnino,Alberto Sonnino,asonnino@fb.com,Meta
+59,Alexander,Spiegelman,Alexander Spiegelman,sashaspiegelman@fb.com,Meta
+59,Alberto,Sonnino,Alberto Sonnino,alberto.sonnino@ucl.ac.uk,University College London
+60,Sanjith,Athlur,Sanjith Athlur,sathlur@cs.cmu.edu,Carnegie Mellon University
+60,Nitika,Saran,Nitika Saran,nitika.saran@gmail.com,Cornell University
+60,Muthian,Sivathanu,Muthian Sivathanu,muthian@microsoft.com,Microsoft Research India
+60,Ramachandran,Ramjee,Ramachandran Ramjee,ramjee@microsoft.com,Microsoft Research India
+60,Nipun,Kwatra,Nipun Kwatra,nkwatra@microsoft.com,Microsoft Research India
+60,Sanjith,Athlur,Sanjith Athlur,sanjithathlur@gmail.com,PES University
+61,Chrysoula,Stathakopoulou,Chrysoula Stathakopoulou,tat@zurich.ibm.com,IBM Research Europe - Zurich
+61,Matej,Pavlovic,Matej Pavlovic,matopavlovic@gmail.com,IBM Research Europe - Zurich
+61,Marko,Vukolic,Marko Vukolic,marko@protocol.ai,Protocol Labs
+61,Chrysoula,Stathakopoulou,Chrysoula Stathakopoulou,stchrysa@gmail.com,
+63,Lingfeng,Xiang,Lingfeng Xiang,lingfeng.xiang@mavs.uta.edu,The University of Texas at Arlington
+63,Xingsheng,Zhao,Xingsheng Zhao,xingsheng.zhao@mavs.uta.edu,The University of texas at Arlington
+63,Jia,Rao,Jia Rao,jia.rao@uta.edu,The University of Texas at Arlington
+63,Song,Jiang,Song Jiang,song.jiang@uta.edu,The University of Texas at Arlington
+63,Hong,Jiang,Hong Jiang,hong.jiang@uta.edu,The University of Texas at Arlington
+64,Ran,Xu,Ran Xu,xu943@purdue.edu,Purdue University
+64,Jayoung,Lee,Jayoung Lee,lee3716@purdue.edu,Purdue University
+64,Pengcheng,Wang,Pengcheng Wang,wang4495@purdue.edu,Purdue University
+64,Saurabh,Bagchi,Saurabh Bagchi,sbagchi@purdue.edu,Purdue University
+64,Yin,Li,Yin Li,yin.li@wisc.edu,University of Wisconsion - Madison
+64,Somali,Chaterji,Somali Chaterji,schaterji@purdue.edu,Purdue University
+76,Hsuan-Chi,Kuo,Hsuan-Chi Kuo,hckuo2@illinois.edu,University of Illinois at Urbana-Champaign
+76,Kai-Hsun,Chen,Kai-Hsun Chen,kaihsun2@illinois.edu,University of Illinois at Urbana-Champaign
+76,Yicheng,Lu,Yicheng Lu,yl53@illinois.edu,University of Illinois at Urbana-Champaign
+76,Dan,Williams,Dan Williams,djwillia@vt.edu,Virginia Tech
+76,Sibin,Mohan,Sibin Mohan,sibin.mohan@oregonstate.edu,Oregon State University
+76,Tianyin,Xu,Tianyin Xu,tyxu@illinois.edu,University of Illinois at Urbana-Champaign
+82,Jonas,Vinck,Jonas Vinck,jonas.vinck@kuleuven.be,"imec-DistriNet, KU Leuven"
+82,Bert,Abrath,Bert Abrath,bert.abrath@ugent.be,Ghent University
+82,Bart,Coppens,Bart Coppens,bart.coppens@ugent.be,Ghent University
+82,Alexios,Voulimeneas,Alexios Voulimeneas,alex.voulimeneas@kuleuven.be,"imec-DistriNet, KU Leuven"
+82,Bjorn,De Sutter,Bjorn De Sutter,bjorn.desutter@ugent.be,Ghent University
+82,Stijn,Volckaert,Stijn Volckaert,stijn.volckaert@cs.kuleuven.be,"imec-DistriNet, KU Leuven"
+84,Nicholas,Wanninger,Nicholas Wanninger,ncw@u.northwestern.edu,Northwestern University
+84,Kyle,Hale,Kyle Hale,khale@cs.iit.edu,Illinois Institute of Technology
+84,Joshua,Bowden,Joshua Bowden,jbowden@hawk.iit.edu,Illinois Institute of Technology
+86,Md Shahriar,Iqbal,Md Shahriar Iqbal,miqbal@email.sc.edu,University of South Carolina
+86,Rahul,Krishna,Rahul Krishna,rkrsn@ibm.com,"IBM T. J. Watson Research Center, USA"
+86,Mohammad Ali,Javidian,Mohammad Ali Javidian,mjavidia@pudue.edu,Purdue University
+86,Baishakhi,Ray,Baishakhi Ray,rayb@cs.columbia.edu,Columbia University
+86,Pooyan,Jamshidi,Pooyan Jamshidi,pjamshid@cse.sc.edu,University of South Carolina
+87,Jianbang,Yang,Jianbang Yang,jianbangyang@sjtu.edu.cn,Shanghai Jiao Tong University
+87,Dahai,Tang,Dahai Tang,seatang@hnu.edu.cn,Hunan university
+87,Xiaoniu,Song,Xiaoniu Song,xiaoniu.sxn@sjtu.edu.cn,Shanghai Jiao Tong University
+87,Lei,Wang,Lei Wang,jiede.wl@alibaba-inc.com,Alibaba Group
+87,Qiang,Yin,Qiang Yin,q.yin@sjtu.edu.cn,Shanghai Jiao Tong University
+87,Rong,Chen,Rong Chen,rongchen@sjtu.edu.cn,Shanghai Jiao Tong University
+87,Wenyuan,Yu,Wenyuan Yu,wenyuan.ywy@alibaba-inc.com,Alibaba Group
+87,Jingren,Zhou,Jingren Zhou,jingren.zhou@alibaba-inc.com,Alibaba Group
+92,Joerg,Thalheim,Joerg Thalheim,joerg@thalheim.io,TU Munich / University of Edinburgh
+92,Peter,Okelmann,Peter Okelmann,okelmann@in.tum.de,TU Munich
+92,Harshavardhan,Unnibhavi,Harshavardhan Unnibhavi,unnibhav@in.tum.de,TU Munich
+92,Redha,Gouicem,Redha Gouicem,gouicem@in.tum.de,TU Munich
+92,Pramod,Bhatotia,Pramod Bhatotia,pramod.bhatotia@in.tum.de,TU Munich
+93,Mohammad Hossein, Hajkazemi,Mohammad Hossein Hajkazemi,"",NetApp
+93,Vojtech,Aschenbrenner,Vojtech Aschenbrenner,"",EPFL
+93,Mania,Abdi,Mania Abdi,"",Northeastern University
+93,Emine Ugur,Kaynar,Emine Ugur Kaynar,"",Boston University
+93,Amin,Mossayebzadeh,Amin Mossayebzadeh,"",Boston University
+93,Orran,Krieger,Orran Krieger,"",Boston University
+93,Peter,Desnoyers,Peter Desnoyers,"",Northeastern University
+94,Lixiang,Ao,Lixiang Ao,"",UC San Diego
+94,George,Porter,George Porter,"",UC San Diego
+94,Geoffrey M.,Voelker,Geoffrey M. Voelker,"",UC San Diego

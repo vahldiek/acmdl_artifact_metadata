@@ -5,6 +5,8 @@ from datetime import datetime
 
 def generate_acmdl_artifact_metafile(authors, artifactDOI, relatedDOI, paperTitle, description, badges, zipfile="", readme=""):
 
+    # print(f"Generating metadata for {paperTitle} receiving {badges} by {authors} in {artifactDOI} {relatedDOI}")
+
     return generate_acmdl_artifact_metafile_header(artifactDOI, paperTitle) + '\n' \
             + generate_acmdl_artifact_metafile_authors(authors) + '\n' \
             + generate_acmdl_artifact_metafile_footer(relatedDOI, description, zipfile, readme, badges)

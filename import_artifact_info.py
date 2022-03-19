@@ -9,8 +9,8 @@ from datetime import datetime
 import html
 
 # paper title
-# 2 -> paper ID, 3 -> title, 14 -> paper DOI
-# " ","ACM No.","Contact No.","Title","Author","Email","DL Paper Type","Rights Granted","Third Party","Aux. Material","Video Recording","Artistic Images","Govt. Employees","Open Access","DOI","Authorizer","Statement","CC License","Non-ACM Copyright"
+# 0 -> paper ID, 1 -> title, 11 -> paper DOI
+# "Contact No.","Title","Author","Email","DL Paper Type","Rights Granted","Third Party","Aux. Material","Video Recording","Artistic Images","Govt. Employees","Open Access","DOI","Authorizer","Statement","CC License","Non-ACM Copyright"
 def read_papers(paperCSV):
     papers = {}
 
@@ -19,9 +19,13 @@ def read_papers(paperCSV):
         reader = csv.reader(csvfile, delimiter=',')
         for row in reader:
 
+            paperID = row[0]
+            if not row[0].isalnum(): # eurosys does eurosys-p??? and not directly the paper ID
+                paperID = row[0][row[0].rfind("p")+1:]
+
             # xmlcharrrefreplace ensures that special characters are replaced with XML/HTML equivalent
-            papers[row[2]] = {'title': html.escape(row[3][:row[3].find("\\")]).strip(),
-                        'refdoi': row[14][row[14].find("10.1145/")+len("10.1145/"):]}
+            papers[paperID] = {'title': html.escape(row[1][:row[1].find("\\")]).strip(),
+                        'refdoi': row[12][row[12].find("10.1145/")+len("10.1145/"):]}
 
     print(f'Read {len(papers)} papers.')
 
@@ -29,6 +33,7 @@ def read_papers(paperCSV):
 
 # badge decision and doi dictionary
 # apdxid, paperid, aa, af, rr, doi
+# Generated via Excel sheet
 def read_badges_doi(badgeDOICSV):
     badge_doi = {}
 
@@ -37,11 +42,11 @@ def read_badges_doi(badgeDOICSV):
         reader = csv.reader(csvfile, delimiter=',')
         for row in reader:
             badges = []
-            if row[2] == 'Yes':
+            if row[2] == 'Yes' or row[2] == '1':
                 badges.append('available')
-            if row[3] == 'Yes':
+            if row[3] == 'Yes' or row[3] == '1':
                 badges.append('functional')
-            if row[4] == 'Yes':
+            if row[4] == 'Yes' or row[4] == '1':
                 badges.append('reproduced')
 
             # xmlcharrrefreplace ensures that special characters are replaced with XML/HTML equivalent
@@ -56,9 +61,9 @@ def read_badges_doi(badgeDOICSV):
 
     return badge_doi
 
-
 # author dictionary
 # apdxid,firstname,lastname,fullname,email,institute
+# Generated via HotCRP download
 def read_authors(authorCSV):
     authors = defaultdict(list)
 
@@ -81,12 +86,16 @@ def import_artifact_info_zenodo(doi):
     id = doi.split('.')[2]
     url = f'https://zenodo.org/record/{id}/export/json'
 
-    print(f'asking for {url}')
+    print(f'{doi}: accesses {url} for information')
 
     with urllib.request.urlopen(url) as loader:
         page = html.unescape(loader.read().decode())
         page = page[page.find('{'):page.find('</pre>')]
-        data = json.loads(page)
+        try:
+            data = json.loads(page)
+        except json.decoder.JSONDecodeError:
+            print(f'doi {doi} is broken, likely updated to a new one or does not exist')
+            exit()
 
         return data['metadata']['description']
 
@@ -100,7 +109,8 @@ if __name__ == '__main__':
 
         id = artifact['doi'][artifact['doi'].rfind('.')+1:]
         host = artifact['doi'][artifact['doi'].find('/')+1: artifact['doi'].rfind('.')]
-        out = f'{outputdir}/' if outputdir else "" + f'{host}.{id}'
+        out = f'{outputdir}/' if outputdir else ""
+        out += f'{host}.{id}'
 
         if not os.path.exists(f'{out}/{host}.{id}/meta'):
 
