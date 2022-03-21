@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE submission PUBLIC "-//Atypon//DTD Literatum Content Submission Manifest DTD v4.2 20140519//EN" "atypon/submissionmanifest.4.2.dtd">
+<submission group-doi="10.1145/artifacts-group" submission-type="full">
+    <callback>
+        <email>aec-2022@eurosys.org</email>
+    </callback>
+    <processing-instructions>
+        <make-live on-condition="no-errors"/>
+    </processing-instructions>
+</submission>
