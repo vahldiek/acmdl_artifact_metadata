@@ -53,9 +53,10 @@ def read_badges_doi(badgeDOICSV):
             badge_doi[row[0]] = {'papid': row[1],
                         'aa': row[2],
                         'af': row[3],
-                        'rr': row[3],
+                        'rr': row[4],
                         'badges': ','.join(badges),
-                        'doi': "" if len(row) > 6 else row[5]}
+                        'doi': row[5],
+                        'repository': row[6]}
 
     print(f'Read {len(badge_doi)} badge decisions and DOIs.')
 
@@ -86,7 +87,7 @@ def import_artifact_info_zenodo(doi):
     id = doi.split('.')[2]
     url = f'https://zenodo.org/record/{id}/export/json'
 
-    print(f'{doi}: accesses {url} for information')
+    # print(f'{doi}: accesses {url} for information')
 
     with urllib.request.urlopen(url) as loader:
         page = html.unescape(loader.read().decode())
@@ -117,6 +118,12 @@ if __name__ == '__main__':
             description = ""
             if "zenodo" in artifact['doi']:
                 description = import_artifact_info_zenodo(artifact['doi'])
+
+            print(f'  - tittle: "{papers[artifact["papid"]]["title"]}"\n'
+                  f'    badges: "{artifact["badges"]}"\n'
+                  f'    paper_url: "{papers[artifact["papid"]]["refdoi"]}"\n'
+                  f'    artifact_url: "{artifact["doi"]}"\n'
+                  f'    repository_url: "{artifact["repository"]}"\n')
 
             metadata = generate_acmdl_artifact_metafile(authors[apdxid],
                                             artifact['doi'],
