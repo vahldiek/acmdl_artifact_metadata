@@ -5,6 +5,6 @@
         <email>aec-2022@eurosys.org</email>
     </callback>
     <processing-instructions>
-        <make-live on-condition="no-errors"/>
+        <make-live on-condition="no-fatals"/>
     </processing-instructions>
 </submission>
